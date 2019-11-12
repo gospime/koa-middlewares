@@ -1,0 +1,45 @@
+{
+  "name": "@gospime/koa-middlewares",
+  "version": "1.0.0",
+  "description": "Common middlewares for backend service based on Koa",
+  "keywords": [
+    "gospime",
+    "koa",
+    "middleware"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && npm audit fix",
+    "up": "npm update",
+    "check": "npm outdated",
+    "upgrade": "npm run up && npm run check && npm run build",
+    "push-version": "standard-version",
+    "ls-g": "npm list -g --depth=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gospime/koa-middlewares.git"
+  },
+  "author": "Oleg Kravchuk <oleg.kravchuk@gospime.com> (https://gospime.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gospime/koa-middlewares/issues"
+  },
+  "homepage": "https://github.com/gospime/koa-middlewares#readme",
+  "devDependencies": {
+    "standard-version": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compress": "^3.0.0",
+    "koa-helmet": "^5.2.0",
+    "koa-isajax": "^1.0.5",
+    "koa-requestid": "^2.1.0",
+    "koa-response-time": "^2.1.0",
+    "zlib": "^1.0.5"
+  }
+}
