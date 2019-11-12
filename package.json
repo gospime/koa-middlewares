@@ -1,6 +1,6 @@
 {
   "name": "@gospime/koa-middlewares",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Common middlewares for backend service based on Koa",
   "keywords": [
     "gospime",
