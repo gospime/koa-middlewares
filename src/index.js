@@ -21,7 +21,7 @@ const list = [
     enableTypes: ['json'],
     onerror: (error, context) => {
       if (error) {
-        if (console.log && typeof console.log === 'object') {
+        if (context.log && typeof context.log === 'object') {
           context.log.error(error);
         } else {
           console.error(error);
