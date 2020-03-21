@@ -41,5 +41,8 @@
     "koa-requestid": "^2.1.0",
     "koa-response-time": "^2.1.0",
     "zlib": "^1.0.5"
+  },
+  "optionalDependencies": {
+    "minimist": "^1.2.5"
   }
 }
